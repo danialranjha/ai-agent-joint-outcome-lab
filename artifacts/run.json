@@ -1,0 +1,249 @@
+{
+  "datasets": {
+    "A_separate": {
+      "denominator": 4,
+      "feasible_task_only_bounds_from_marginals": {
+        "maximum": 2,
+        "minimum": 0
+      },
+      "marginal_report": {
+        "malicious": 2,
+        "task": 2
+      },
+      "paired_report": {
+        "both": 0,
+        "malicious_only": 2,
+        "neither": 0,
+        "task_only": 2
+      },
+      "records": [
+        {
+          "malicious": false,
+          "run_id": "run-1",
+          "task": true
+        },
+        {
+          "malicious": false,
+          "run_id": "run-2",
+          "task": true
+        },
+        {
+          "malicious": true,
+          "run_id": "run-3",
+          "task": false
+        },
+        {
+          "malicious": true,
+          "run_id": "run-4",
+          "task": false
+        }
+      ],
+      "task_without_tested_malicious_count": 2,
+      "task_without_tested_malicious_fraction": {
+        "denominator": 4,
+        "numerator": 2
+      }
+    },
+    "B_together": {
+      "denominator": 4,
+      "feasible_task_only_bounds_from_marginals": {
+        "maximum": 2,
+        "minimum": 0
+      },
+      "marginal_report": {
+        "malicious": 2,
+        "task": 2
+      },
+      "paired_report": {
+        "both": 2,
+        "malicious_only": 0,
+        "neither": 2,
+        "task_only": 0
+      },
+      "records": [
+        {
+          "malicious": true,
+          "run_id": "run-1",
+          "task": true
+        },
+        {
+          "malicious": true,
+          "run_id": "run-2",
+          "task": true
+        },
+        {
+          "malicious": false,
+          "run_id": "run-3",
+          "task": false
+        },
+        {
+          "malicious": false,
+          "run_id": "run-4",
+          "task": false
+        }
+      ],
+      "task_without_tested_malicious_count": 0,
+      "task_without_tested_malicious_fraction": {
+        "denominator": 4,
+        "numerator": 0
+      }
+    },
+    "asymmetric": {
+      "denominator": 4,
+      "feasible_task_only_bounds_from_marginals": {
+        "maximum": 3,
+        "minimum": 3
+      },
+      "marginal_report": {
+        "malicious": 1,
+        "task": 4
+      },
+      "paired_report": {
+        "both": 1,
+        "malicious_only": 0,
+        "neither": 0,
+        "task_only": 3
+      },
+      "records": [
+        {
+          "malicious": false,
+          "run_id": "run-1",
+          "task": true
+        },
+        {
+          "malicious": false,
+          "run_id": "run-2",
+          "task": true
+        },
+        {
+          "malicious": false,
+          "run_id": "run-3",
+          "task": true
+        },
+        {
+          "malicious": true,
+          "run_id": "run-4",
+          "task": true
+        }
+      ],
+      "task_without_tested_malicious_count": 3,
+      "task_without_tested_malicious_fraction": {
+        "denominator": 4,
+        "numerator": 3
+      }
+    },
+    "benign_twin": {
+      "denominator": 4,
+      "feasible_task_only_bounds_from_marginals": {
+        "maximum": 4,
+        "minimum": 4
+      },
+      "marginal_report": {
+        "malicious": 0,
+        "task": 4
+      },
+      "paired_report": {
+        "both": 0,
+        "malicious_only": 0,
+        "neither": 0,
+        "task_only": 4
+      },
+      "records": [
+        {
+          "malicious": false,
+          "run_id": "run-1",
+          "task": true
+        },
+        {
+          "malicious": false,
+          "run_id": "run-2",
+          "task": true
+        },
+        {
+          "malicious": false,
+          "run_id": "run-3",
+          "task": true
+        },
+        {
+          "malicious": false,
+          "run_id": "run-4",
+          "task": true
+        }
+      ],
+      "task_without_tested_malicious_count": 4,
+      "task_without_tested_malicious_fraction": {
+        "denominator": 4,
+        "numerator": 4
+      }
+    },
+    "empty": {
+      "denominator": 0,
+      "feasible_task_only_bounds_from_marginals": {
+        "maximum": 0,
+        "minimum": 0
+      },
+      "marginal_report": {
+        "malicious": 0,
+        "task": 0
+      },
+      "paired_report": {
+        "both": 0,
+        "malicious_only": 0,
+        "neither": 0,
+        "task_only": 0
+      },
+      "records": [],
+      "task_without_tested_malicious_count": 0,
+      "task_without_tested_malicious_fraction": null
+    },
+    "neither_completed": {
+      "denominator": 4,
+      "feasible_task_only_bounds_from_marginals": {
+        "maximum": 0,
+        "minimum": 0
+      },
+      "marginal_report": {
+        "malicious": 0,
+        "task": 0
+      },
+      "paired_report": {
+        "both": 0,
+        "malicious_only": 0,
+        "neither": 4,
+        "task_only": 0
+      },
+      "records": [
+        {
+          "malicious": false,
+          "run_id": "run-1",
+          "task": false
+        },
+        {
+          "malicious": false,
+          "run_id": "run-2",
+          "task": false
+        },
+        {
+          "malicious": false,
+          "run_id": "run-3",
+          "task": false
+        },
+        {
+          "malicious": false,
+          "run_id": "run-4",
+          "task": false
+        }
+      ],
+      "task_without_tested_malicious_count": 0,
+      "task_without_tested_malicious_fraction": {
+        "denominator": 4,
+        "numerator": 0
+      }
+    }
+  },
+  "kind": "synthetic supplied outcome labels; no agent/actions executed",
+  "schema_version": 1,
+  "scope": "Independent joint-outcome accounting extension, not ANGLER replication",
+  "source": "https://arxiv.org/html/2610.41272v1",
+  "unit": "one invented run record, paired by run_id within each dataset"
+}

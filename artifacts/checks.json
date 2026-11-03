@@ -1,0 +1,23 @@
+{
+  "deliberate_faults": {
+    "intersection_instead_of_task_only": {
+      "assertion_failures": 4,
+      "errors": 0,
+      "exit_code": 1
+    },
+    "missing_becomes_false": {
+      "assertion_failures": 2,
+      "errors": 0,
+      "exit_code": 1
+    }
+  },
+  "errors": 0,
+  "exhaustive": {
+    "marginal_groups": 140,
+    "max_sequence_length": 6,
+    "passed": true,
+    "sequences": 5461
+  },
+  "failures": 0,
+  "unit_tests": 9
+}
